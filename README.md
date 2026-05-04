@@ -1,7 +1,7 @@
 ## About
 This is a repository for my CS410 (Research & Presentation Skills) Project A (Practical-focused).
 
-**Project title:** 'AI-powered misinformation detection tool for PNG Social Media'
+**Project title:** Automated Detection of Misinformation in Social Media Content in Papua New Guinea Using Natural Language Processing
 
 ## Why did I choose this project?
 My reasoning behind choosing this project (and project B, should you come to find out about it) stems from wanting to create solutions to existing problems in PNG society, particularly in online platforms. Many Papua New Guineans are not yet technically literate enough to discern between what is real and fake news and oftentimes, we hear about unfortunate instances where people fall victim to scams, fake news and misinformation in general.
