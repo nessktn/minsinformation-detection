@@ -1,11 +1,8 @@
 import pickle
 
-model = pickle.load(open("model.pkl", "rb"))
-vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
+pipeline = pickle.load(open("pipeline.pkl", "rb"))
 
 def predict(text):
-    vec = vectorizer.transform([text])
-    prediction = model.predict(vec)[0]
-    probability = model.predict_proba(vec)[0].max()
-
+    prediction = pipeline.predict([text])[0]
+    probability = pipeline.predict_proba([text])[0].max()
     return prediction, probability
