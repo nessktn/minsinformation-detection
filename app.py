@@ -9,6 +9,6 @@ if st.button("Analyze"):
     label, confidence = predict(user_input)
 
     if label == 1:
-        st.error(f"Likely Misinformation ({confidence:.2f})")
+        st.error(f"⚠️ Likely Misinformation ({confidence:.2f})")
     else:
-        st.success(f"Likely Credible ({confidence:.2f})")
+        st.success(f"✅ Likely Credible ({confidence:.2f})")
